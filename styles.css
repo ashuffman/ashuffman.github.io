@@ -75,7 +75,7 @@ body {
 }
 
 .active {
-  transform: scale(1.2);
+  font-size: 1.5em
 }
 
 /*---- Image Styles ----*/
