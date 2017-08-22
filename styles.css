@@ -76,23 +76,47 @@ body {
 
 /*---- Image Styles ----*/
 .photo {
-  width: 32%;
+  width: 250px;
   display: inline-block;
   border: 2px dashed lightblue;
+  margin: auto;
+}
+
+.gallery-list {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+}
+
+.gallery-item {
+  display: inline-block;
+  margin: auto 5px;
 }
 
 .profile-photo {
   width: 200px;
   border-radius: 50%;
   float:right;
+  border: 2px dashed lightblue;
 }
 
 .intro-photo {
-  width: 150px;
+  width: 200px;
   border-radius: 50%;
   float:left;
   margin: 20px;
   clear:both;
+  border: 2px dashed lightblue;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  transform: rotate(2deg);
+}
+
+.intro-photo:hover {
+  transform: scale(1.05);
+  transform: rotate(2deg);
 }
 
 /*---- List Styles ----*/
