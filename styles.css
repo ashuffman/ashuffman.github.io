@@ -24,6 +24,7 @@ body {
   background-color: white;
   padding: 20px;
   border-radius: 20px;
+  align-content: center;
 }
 /* ---- Header Styles ----*/
 .level1 {
@@ -40,6 +41,18 @@ body {
   padding: 20px;
   margin: auto;
   text-decoration: none;
+  font-size: 1.3em;
+}
+
+.nav-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.nav-link a:hover {
+  color: grey;
 }
 
 .main-nav {
@@ -55,8 +68,7 @@ body {
 
 /*---- Gallery Styles ----*/
 .photo {
-  width: 200px;
+  width: 32%;
   display: inline-block;
-  margin: auto;
-  max-height: 300px;
+  border: 2px dashed lightblue;
 }
