@@ -26,6 +26,14 @@ body {
   border-radius: 20px;
   align-content: center;
 }
+
+.card-div {
+  width: 30%;
+  display: inline-block;
+  background-color: white;
+  margin-top:20px;
+  border-radius: 20px;
+}
 /* ---- Header Styles ----*/
 .level1 {
   text-align: center;
@@ -66,9 +74,30 @@ body {
   padding-left: 0px;
 }
 
-/*---- Gallery Styles ----*/
+/*---- Image Styles ----*/
 .photo {
   width: 32%;
   display: inline-block;
   border: 2px dashed lightblue;
+}
+
+.profile-photo {
+  width: 200px;
+  border-radius: 50%;
+  float:right;
+}
+
+.intro-photo {
+  width: 150px;
+  border-radius: 50%;
+  float:left;
+  margin: 20px;
+  clear:both;
+}
+
+/*---- List Styles ----*/
+.list {
+  text-decoration: none;
+  padding: 0px;
+  list-style: none;
 }
