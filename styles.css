@@ -74,6 +74,10 @@ body {
   padding-left: 0px;
 }
 
+.active {
+  transform: scale(1.2);
+}
+
 /*---- Image Styles ----*/
 .photo {
   width: 250px;
