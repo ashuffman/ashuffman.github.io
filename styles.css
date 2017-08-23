@@ -1,3 +1,5 @@
+/*---- Main Layout Styles ----*/
+
 * {
   box-sizing: border-box;
 }
@@ -7,8 +9,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  color: #FFF;
+  background: white;
 }
 
 /*---- Container Styles ----*/
@@ -20,23 +22,26 @@ body {
 .content-div {
   max-width: 60%;
   margin: auto;
+  margin-bottom: 10px;
   text-align: left;
-  background-color: white;
+  background-color: #8B8982;
   padding: 20px;
-  border-radius: 20px;
   align-content: center;
+  border: 5px #124E78 dashed;
 }
 
 .card-div {
   width: 30%;
   display: inline-block;
-  background-color: white;
-  margin-top:20px;
-  border-radius: 20px;
+  background-color: #8B8982;
+  padding: 20px;
+  border: 5px #124E78 dashed;
+  margin-bottom:10px;
 }
 /* ---- Header Styles ----*/
 .level1 {
   text-align: center;
+  color: #124E78;
 }
 
 .level2 {
@@ -46,7 +51,7 @@ body {
 /*---- Nav Styles ----*/
 .nav-link {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   margin: auto;
   text-decoration: none;
   font-size: 1.3em;
@@ -57,33 +62,36 @@ body {
   font-weight: bold;
   color: white;
   text-shadow: 1px 1px 2px grey;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .nav-link a:hover {
-  color: grey;
+  color: #6C91C2;
 }
 
 .main-nav {
-  background-color: lightblue;
+  background-color: #124E78;
   align-content: center;
   list-style: none;
-  border-radius: 20px;
+  border: 5px dashed #8B8982;
+  margin-bottom: 10px;
 }
 
 .nav-list {
   padding-left: 0px;
 }
 
-.active {
-  font-size: 1.5em
-}
-
 /*---- Image Styles ----*/
 .photo {
-  width: 250px;
+  width: 300px;
   display: inline-block;
-  border: 2px dashed lightblue;
-  margin: auto;
+  border-top:5px solid white;
+  border-left:5px solid white;
+  border-right:5px solid white;
+  border-bottom:60px solid white;
+  margin: 0px;
+  box-shadow: 1px 1px 1px 2px #403F3C;
 }
 
 .gallery-list {
@@ -93,15 +101,21 @@ body {
 }
 
 .gallery-item {
+  padding: 0px;
   display: inline-block;
-  margin: auto 5px;
+  margin: 5px;
+}
+
+.gallery-item:hover {
+  transform: rotate(-5deg);
 }
 
 .profile-photo {
   width: 200px;
   border-radius: 50%;
   float:right;
-  border: 2px dashed lightblue;
+  border: 2px solid #FFF;
+  margin-left: 5px;
 }
 
 .intro-photo {
@@ -110,7 +124,7 @@ body {
   float:left;
   margin: 20px;
   clear:both;
-  border: 2px dashed lightblue;
+  border: 2px solid #FFF;
 }
 
 .profile-photo:hover {
