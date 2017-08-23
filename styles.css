@@ -107,7 +107,7 @@ body {
 }
 
 .gallery-item:hover {
-  transform: rotate(-5deg);
+  transform: rotate(-6deg);
 }
 
 .profile-photo {
